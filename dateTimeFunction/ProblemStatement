@@ -1,0 +1,20 @@
+Problem
+Using Date Time API introduced in java 8, you need to carry out a few
+date specific functions, such as
+
+getTodaysDate()
+Implement the method so that whenever code is executed
+today's date is returned back properly.
+
+getLaterDatebyDays(LocalDate date, int x)
+Implement the method so that the date which is x days later 
+the date passed as an input is returned back properly.
+
+getPreviousDatebyWeeks(LocalDate date, int x)
+Implement the method so that the date which is x weeks prior to
+the date passed as an input is returned back properly.
+
+getTimeDifference(LocalDate date1, LocalDate date2)
+Implement the method so that the time difference in terms of Years, Months
+and Days would be return back perfectly between 2 given dates
+Return the String only in this format : "Year-20:Months-5:Days-1"
